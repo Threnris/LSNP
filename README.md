@@ -48,29 +48,30 @@ Multiple threads will start for:
 
 ---
 
-## Commands
+## 📜 Commands
 
-plaintext
-list                                List known peers
-post <msg>                          Broadcast a post
-dm <user_id> <msg>                  Send a direct message
-follow <user_id>                   Follow a user
-unfollow <user_id>                 Unfollow a user
-posts                               View all received posts
-dms                                 View all direct messages
-followers                           View followers
-groups                              View groups and their members
-group_create <name> <uids>         Create a group with members
-groupmsg <group_id> <msg>          Send a group message
-like <user_id> <post_timestamp>    Like a post
-unlike <user_id> <post_timestamp>  Unlike a post
-send_file <uid> <path> [desc]      Send file
-accept <fileid>                    Accept incoming file
-ttt_invite <user_id>               Invite a player to Tic Tac Toe
-ttt_move <game_id> <pos>           Play a move
-ttt_games                           List active games
-verbose                             Toggle verbose mode
-exit                                Quit the peer
+| Command                                | Description                        |
+|----------------------------------------|------------------------------------|
+| `list`                                 | List known peers                   |
+| `post <msg>`                           | Broadcast a post                   |
+| `dm <user_id> <msg>`                   | Send a direct message              |
+| `follow <user_id>`                     | Follow a user                      |
+| `unfollow <user_id>`                   | Unfollow a user                    |
+| `posts`                                | View all received posts            |
+| `dms`                                  | View all direct messages           |
+| `followers`                            | View followers                     |
+| `groups`                               | View groups and their members      |
+| `group_create <name> <uids>`           | Create a group with members        |
+| `groupmsg <group_id> <msg>`            | Send a group message               |
+| `like <user_id> <post_timestamp>`      | Like a post                        |
+| `unlike <user_id> <post_timestamp>`    | Unlike a post                      |
+| `send_file <user_id> <path> [desc]`    | Send a file                        |
+| `accept <fileid>`                      | Accept incoming file               |
+| `ttt_invite <user_id>`                 | Invite a player to Tic Tac Toe     |
+| `ttt_move <game_id> <pos>`             | Play a move                        |
+| `ttt_games`                            | List active games                  |
+| `verbose`                              | Toggle verbose mode                |
+| `exit`                                 | Quit the peer                      |
 
 
 ---
