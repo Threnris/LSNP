@@ -169,7 +169,7 @@ Board positions:
 
 | Category                       | Points | Criteria                                                                                                                                  | Completed By | Status |
 |--------------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|
-| Profile Picture & Likes        | 5/5     | Correctly includes AVATAR fields and LIKE actions for posts.                                                                             | Aj           |  Done |
+| Profile Picture & Likes        | 5/10     | Correctly includes AVATAR fields and LIKE actions for posts.                                                                             | Aj           |  Done |
 | File Transfer                  | 15/15     | Handles AVATAR fields, FILE_OFFER, FILE_CHUNK, FILE_RECEIVED; reconstructs full file.                                                     | Aj           |  Done |
 | Token Handling & Scope         | 10/10     | Validates token structure, expiration, and scope. Stores all messages with valid token structure.                                        | Aj           |  Done |
 | Group Management               | 15/15     | Implements GROUP_CREATE, GROUP_UPDATE, GROUP_MESSAGE; tracks membership. Prints groups, members, and incoming group messages only.       | Aj           |  Done |
@@ -177,7 +177,7 @@ Board positions:
 
 ---
 
-**Total Points Earned:** `35 + 25 + 60 = 115 / 125 `
+**Total Points Earned:** `35 + 20 + 60 = 115 / 125 `
 
 ---
 
