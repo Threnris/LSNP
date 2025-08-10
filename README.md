@@ -48,7 +48,7 @@ Multiple threads will start for:
 
 ---
 
-## 📜 Commands
+## Commands
 
 | Command                                | Description                        |
 |----------------------------------------|------------------------------------|
