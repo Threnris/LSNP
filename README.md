@@ -149,10 +149,10 @@ Board positions:
 
 | Category                             | Points | Criteria                                                                                                                                                                   | Completed By | Status |
 |--------------------------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|
-| Clean Architecture & Logging         | 5      | Modular code, readable structure, debug/log output.                                                                                                                       | Joseph       | ✅ Done |
-| Protocol Compliance Test Suite       | 10     | CLI or tests for crafting, parsing, and simulating LSNP messages. Toggle verbose and non-verbose modes.                                                                  | Joseph       | ✅ Done |
-| Message Sending and Receiving        | 10     | Peer can send and receive messages simultaneously.                                                                                                                        | Joseph       | ✅ Done |
-| Protocol Parsing and Message Format  | 10     | Parses all LSNP messages (PROFILE, POST, DM, etc.) in key-value format. Lists known peers (names + display names), and all valid posts/DMs by that peer.                  | Joseph       | ✅ Done |
+| Clean Architecture & Logging         | 5/5      | Modular code, readable structure, debug/log output.                                                                                                                       | Joseph       |  Done |
+| Protocol Compliance Test Suite       | 10/10     | CLI or tests for crafting, parsing, and simulating LSNP messages. Toggle verbose and non-verbose modes.                                                                  | Joseph       |  Done |
+| Message Sending and Receiving        | 10/10     | Peer can send and receive messages simultaneously.                                                                                                                        | Joseph       |  Done |
+| Protocol Parsing and Message Format  | 10/10     | Parses all LSNP messages (PROFILE, POST, DM, etc.) in key-value format. Lists known peers (names + display names), and all valid posts/DMs by that peer.                  | Joseph       |  Done |
 
 ---
 
@@ -160,8 +160,8 @@ Board positions:
 
 | Category                  | Points | Criteria                                                                                      | Completed By | Status |
 |---------------------------|--------|----------------------------------------------------------------------------------------------|--------------|--------|
-| User Discovery & Presence | 5      | Broadcasts PING/PROFILE every 5 minutes; responds to presence announcements.                 | Joseph       | ✅ Done |
-| Messaging Functionality   | 15     | Sends/receives POST, DM, FOLLOW, UNFOLLOW.                                                    | Joseph       | ✅ Done |
+| User Discovery & Presence | 5/5      | Broadcasts PING/PROFILE every 5 minutes; responds to presence announcements.                 | Joseph       |  Done |
+| Messaging Functionality   | 10/15     | Sends/receives POST, DM, FOLLOW, UNFOLLOW.                                                    | Joseph       |  Done |
 
 ---
 
@@ -169,15 +169,15 @@ Board positions:
 
 | Category                       | Points | Criteria                                                                                                                                  | Completed By | Status |
 |--------------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|
-| Profile Picture & Likes        | 10     | Correctly includes AVATAR fields and LIKE actions for posts.                                                                             | Aj           | ✅ Done |
-| File Transfer                  | 15     | Handles AVATAR fields, FILE_OFFER, FILE_CHUNK, FILE_RECEIVED; reconstructs full file.                                                     | Aj           | ✅ Done |
-| Token Handling & Scope         | 10     | Validates token structure, expiration, and scope. Stores all messages with valid token structure.                                        | Aj           | ✅ Done |
-| Group Management               | 15     | Implements GROUP_CREATE, GROUP_UPDATE, GROUP_MESSAGE; tracks membership. Prints groups, members, and incoming group messages only.       | Aj           | ✅ Done |
-| Game Support (Tic Tac Toe)     | 15     | Implements basic game state, move tracking, and result detection.                                                                        | Aj           | ✅ Done |
+| Profile Picture & Likes        | 5/5     | Correctly includes AVATAR fields and LIKE actions for posts.                                                                             | Aj           |  Done |
+| File Transfer                  | 15/15     | Handles AVATAR fields, FILE_OFFER, FILE_CHUNK, FILE_RECEIVED; reconstructs full file.                                                     | Aj           |  Done |
+| Token Handling & Scope         | 10/10     | Validates token structure, expiration, and scope. Stores all messages with valid token structure.                                        | Aj           |  Done |
+| Group Management               | 15/15     | Implements GROUP_CREATE, GROUP_UPDATE, GROUP_MESSAGE; tracks membership. Prints groups, members, and incoming group messages only.       | Aj           |  Done |
+| Game Support (Tic Tac Toe)     | 15/15     | Implements basic game state, move tracking, and result detection.                                                                        | Aj           |  Done |
 
 ---
 
-**Total Points Earned:** `35 + 25 + 65 = 125 / 125 ✅`
+**Total Points Earned:** `35 + 25 + 60 = 115 / 125 `
 
 ---
 
